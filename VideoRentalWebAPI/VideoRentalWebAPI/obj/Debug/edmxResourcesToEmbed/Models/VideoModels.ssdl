@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VideoRentalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Rental">
+    <Key>
+      <PropertyRef Name="RentalId" />
+    </Key>
+    <Property Name="RentalId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="DateRented" Type="datetime" Nullable="false" />
+    <Property Name="DateReturned" Type="datetime" />
+  </EntityType>
+  <EntityType Name="RentalItem">
+    <Key>
+      <PropertyRef Name="RentalItemId" />
+    </Key>
+    <Property Name="RentalItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RentalId" Type="int" Nullable="false" />
+    <Property Name="MovieId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_RentalItem_dbo_Rental_RentalId">
+    <End Role="Rental" Type="Self.Rental" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="RentalItem" Type="Self.RentalItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rental">
+        <PropertyRef Name="RentalId" />
+      </Principal>
+      <Dependent Role="RentalItem">
+        <PropertyRef Name="RentalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VideoRentalModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Movie" EntityType="Self.Movie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rental" EntityType="Self.Rental" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentalItem" EntityType="Self.RentalItem" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_RentalItem_dbo_Rental_RentalId" Association="Self.FK_dbo_RentalItem_dbo_Rental_RentalId">
+      <End Role="Rental" EntitySet="Rental" />
+      <End Role="RentalItem" EntitySet="RentalItem" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

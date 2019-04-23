@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MovieService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:46939/MovieService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:46939/MovieService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:46939/MovieService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VRWebServiceLibrary.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMovieService_GetMovies_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMovies" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_GetMovies_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMoviesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_GetMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMovie" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_GetMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_PutMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:PutMovie" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_PutMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PutMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_PostMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostMovie" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_PostMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_DeleteMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMovie" />
+  </wsdl:message>
+  <wsdl:message name="IMovieService_DeleteMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMovieResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMovieService">
+    <wsdl:operation name="GetMovies">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMovieService/GetMovies" message="tns:IMovieService_GetMovies_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMovieService/GetMoviesResponse" message="tns:IMovieService_GetMovies_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMovieService/GetMovie" message="tns:IMovieService_GetMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMovieService/GetMovieResponse" message="tns:IMovieService_GetMovie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PutMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMovieService/PutMovie" message="tns:IMovieService_PutMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMovieService/PutMovieResponse" message="tns:IMovieService_PutMovie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMovieService/PostMovie" message="tns:IMovieService_PostMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMovieService/PostMovieResponse" message="tns:IMovieService_PostMovie_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMovieService/DeleteMovie" message="tns:IMovieService_DeleteMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMovieService/DeleteMovieResponse" message="tns:IMovieService_DeleteMovie_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMovieService" type="tns:IMovieService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMovies">
+      <soap:operation soapAction="http://tempuri.org/IMovieService/GetMovies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMovie">
+      <soap:operation soapAction="http://tempuri.org/IMovieService/GetMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutMovie">
+      <soap:operation soapAction="http://tempuri.org/IMovieService/PutMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMovie">
+      <soap:operation soapAction="http://tempuri.org/IMovieService/PostMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMovie">
+      <soap:operation soapAction="http://tempuri.org/IMovieService/DeleteMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MovieService">
+    <wsdl:port name="BasicHttpBinding_IMovieService" binding="tns:BasicHttpBinding_IMovieService">
+      <soap:address location="http://localhost:46939/MovieService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

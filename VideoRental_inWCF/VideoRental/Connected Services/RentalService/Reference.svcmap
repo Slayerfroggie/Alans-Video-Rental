@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2a888682-d819-4d7d-a8b6-35d0c0d58de5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46939/RentalService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RentalService.xsd" MetadataType="Schema" ID="766b269c-f697-423c-972e-bac42f32a23d" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RentalService.disco" MetadataType="Disco" ID="f592273a-dd5b-4b2a-ac7c-0ca82403e0b3" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?disco" />
+    <MetadataFile FileName="RentalService.wsdl" MetadataType="Wsdl" ID="ce0a94ea-2d61-4402-8dbb-0d5e62e9c7b1" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?wsdl" />
+    <MetadataFile FileName="RentalService1.xsd" MetadataType="Schema" ID="e3d5241c-03db-4d86-b7ed-24ffc864cf47" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RentalService2.xsd" MetadataType="Schema" ID="de04db61-881c-4375-9d9d-b365a70192eb" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
