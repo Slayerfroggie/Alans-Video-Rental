@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VideoRentalModelStoreContainer" CdmEntityContainer="VideoRentalEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="VideoRentalModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movies">
+      <EntityTypeMapping TypeName="VideoRentalModel.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rentals">
+      <EntityTypeMapping TypeName="VideoRentalModel.Rental">
+        <MappingFragment StoreEntitySet="Rental">
+          <ScalarProperty Name="RentalId" ColumnName="RentalId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="DateRented" ColumnName="DateRented" />
+          <ScalarProperty Name="DateReturned" ColumnName="DateReturned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RentalItems">
+      <EntityTypeMapping TypeName="VideoRentalModel.RentalItem">
+        <MappingFragment StoreEntitySet="RentalItem">
+          <ScalarProperty Name="RentalItemId" ColumnName="RentalItemId" />
+          <ScalarProperty Name="RentalId" ColumnName="RentalId" />
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

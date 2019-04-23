@@ -1,0 +1,40 @@
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll.config
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.pdb
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.xml
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CopyComplete
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.dll
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.pdb
+C:\Users\Jovellanos\Source\repos\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csprojAssemblyReference.cache
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll.config
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.pdb
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.xml
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csprojAssemblyReference.cache
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CopyComplete
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.dll
+C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.pdb
