@@ -95,6 +95,7 @@
     <Content Include="MovieService.svc" />
     <Content Include="RentalItemService.svc" />
     <Content Include="RentalService.svc" />
+    <Content Include="Service1.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -107,6 +108,7 @@
     <Compile Include="IMovieService.cs" />
     <Compile Include="IRentalItemService.cs" />
     <Compile Include="IRentalService.cs" />
+    <Compile Include="IService1.cs" />
     <Compile Include="Model\Customer.cs">
       <DependentUpon>VideoModels.tt</DependentUpon>
     </Compile>
@@ -144,6 +146,9 @@
     <Compile Include="RentalService.svc.cs">
       <DependentUpon>RentalService.svc</DependentUpon>
     </Compile>
+    <Compile Include="Service1.svc.cs">
+      <DependentUpon>Service1.svc</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -157,6 +162,7 @@
       <DependentUpon>VideoModels.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

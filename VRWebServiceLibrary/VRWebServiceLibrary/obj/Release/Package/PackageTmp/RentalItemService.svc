@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="VRWebServiceLibrary.RentalItemService" CodeBehind="RentalItemService.svc.cs" %>

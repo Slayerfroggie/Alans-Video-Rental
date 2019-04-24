@@ -38,3 +38,23 @@ C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VR
 C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CopyComplete
 C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.dll
 C:\Users\AJ\Documents\TAFE\2018\C# Semester 2\VideoRental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.pdb
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll.config
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\VRWebServiceLibrary.pdb
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\EntityFramework.SqlServer.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\Newtonsoft.Json.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Net.Http.Formatting.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\bin\System.Web.Http.WebHost.xml
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csprojAssemblyReference.cache
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.csproj.CopyComplete
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.dll
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Debug\VRWebServiceLibrary.pdb
