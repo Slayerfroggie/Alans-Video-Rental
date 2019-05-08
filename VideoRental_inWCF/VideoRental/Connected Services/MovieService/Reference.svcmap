@@ -21,14 +21,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:46939/MovieService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/MovieService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MovieService.xsd" MetadataType="Schema" ID="cb4822c6-2d10-4929-9dc5-45e7feb9f669" SourceId="1" SourceUrl="http://localhost:46939/MovieService.svc?xsd=xsd2" />
-    <MetadataFile FileName="MovieService.wsdl" MetadataType="Wsdl" ID="fa77d7cf-29aa-4ad3-ae9e-4927f70d6243" SourceId="1" SourceUrl="http://localhost:46939/MovieService.svc?wsdl" />
-    <MetadataFile FileName="MovieService1.xsd" MetadataType="Schema" ID="b3c9e30b-2be1-44f0-b610-37dc18228c67" SourceId="1" SourceUrl="http://localhost:46939/MovieService.svc?xsd=xsd1" />
-    <MetadataFile FileName="MovieService.disco" MetadataType="Disco" ID="d4814594-070f-4224-b174-7102dc670eb4" SourceId="1" SourceUrl="http://localhost:46939/MovieService.svc?disco" />
-    <MetadataFile FileName="MovieService2.xsd" MetadataType="Schema" ID="3d9e1f82-f4a5-4ab1-9e0a-4db15c5ce77d" SourceId="1" SourceUrl="http://localhost:46939/MovieService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MovieService3.xsd" MetadataType="Schema" ID="0850a706-a053-411a-b3b8-15965822a5ea" SourceId="1" SourceUrl="http://localhost:8080/MovieService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MovieService31.xsd" MetadataType="Schema" ID="fbecf524-7262-4319-a6f5-feefe34d2f5a" SourceId="1" SourceUrl="http://localhost:8080/MovieService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MovieService1.wsdl" MetadataType="Wsdl" ID="93cca379-5be8-4910-8a4d-5a206ab05982" SourceId="1" SourceUrl="http://localhost:8080/MovieService.svc?wsdl" />
+    <MetadataFile FileName="MovieService32.xsd" MetadataType="Schema" ID="ebd2ef48-fe3a-4cc6-92d7-c6b0d81ece1a" SourceId="1" SourceUrl="http://localhost:8080/MovieService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MovieService1.disco" MetadataType="Disco" ID="1b8e014c-dcf5-4e33-a06d-9366e8b2dc8f" SourceId="1" SourceUrl="http://localhost:8080/MovieService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

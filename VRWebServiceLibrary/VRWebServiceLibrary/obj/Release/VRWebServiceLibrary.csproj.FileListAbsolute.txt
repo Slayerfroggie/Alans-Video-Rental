@@ -17,3 +17,4 @@ C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\ob
 C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Release\VRWebServiceLibrary.csproj.CopyComplete
 C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Release\VRWebServiceLibrary.dll
 C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Release\VRWebServiceLibrary.pdb
+C:\Franciscus\Alan\Alans-Video-Rental\VRWebServiceLibrary\VRWebServiceLibrary\obj\Release\VRWebServiceLibrary.csprojAssemblyReference.cache

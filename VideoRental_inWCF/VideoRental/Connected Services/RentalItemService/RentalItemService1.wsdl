@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RentalItemService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8080/RentalItemService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/RentalItemService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/RentalItemService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VRWebServiceLibrary.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRentalItemService_GetRentalItems_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItems" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_GetRentalItems_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_GetRentalItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItem" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_GetRentalItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_GetRentalItemByRentalId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItemByRentalId" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_GetRentalItemByRentalId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRentalItemByRentalIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_PutRentalItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:PutRentalItem" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_PutRentalItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PutRentalItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_PostRentalItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostRentalItem" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_PostRentalItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostRentalItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_DeleteRentalItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRentalItem" />
+  </wsdl:message>
+  <wsdl:message name="IRentalItemService_DeleteRentalItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRentalItemResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRentalItemService">
+    <wsdl:operation name="GetRentalItems">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItems" message="tns:IRentalItemService_GetRentalItems_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItemsResponse" message="tns:IRentalItemService_GetRentalItems_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItem" message="tns:IRentalItemService_GetRentalItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItemResponse" message="tns:IRentalItemService_GetRentalItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalItemByRentalId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItemByRentalId" message="tns:IRentalItemService_GetRentalItemByRentalId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/GetRentalItemByRentalIdResponse" message="tns:IRentalItemService_GetRentalItemByRentalId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PutRentalItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/PutRentalItem" message="tns:IRentalItemService_PutRentalItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/PutRentalItemResponse" message="tns:IRentalItemService_PutRentalItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostRentalItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/PostRentalItem" message="tns:IRentalItemService_PostRentalItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/PostRentalItemResponse" message="tns:IRentalItemService_PostRentalItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRentalItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRentalItemService/DeleteRentalItem" message="tns:IRentalItemService_DeleteRentalItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRentalItemService/DeleteRentalItemResponse" message="tns:IRentalItemService_DeleteRentalItem_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRentalItemService" type="tns:IRentalItemService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetRentalItems">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/GetRentalItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalItem">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/GetRentalItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRentalItemByRentalId">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/GetRentalItemByRentalId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutRentalItem">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/PutRentalItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostRentalItem">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/PostRentalItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRentalItem">
+      <soap:operation soapAction="http://tempuri.org/IRentalItemService/DeleteRentalItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RentalItemService">
+    <wsdl:port name="BasicHttpBinding_IRentalItemService" binding="tns:BasicHttpBinding_IRentalItemService">
+      <soap:address location="http://localhost:8080/RentalItemService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

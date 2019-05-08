@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="PxKKbju7FaM1OZH4BP0otZI2oLk=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="kS+VcWAanN2/DbQz7LV0cItOh+w=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IMovieService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IMovieService" contract="MovieService.IMovieService" bindingType="basicHttpBinding" address="http://localhost:46939/MovieService.svc" bindingConfiguration="BasicHttpBinding_IMovieService">
+    <endpoint name="BasicHttpBinding_IMovieService" contract="MovieService.IMovieService" bindingType="basicHttpBinding" address="http://localhost:8080/MovieService.svc" bindingConfiguration="BasicHttpBinding_IMovieService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:46939/MovieService.svc</serializedValue>
+          <serializedValue>http://localhost:8080/MovieService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

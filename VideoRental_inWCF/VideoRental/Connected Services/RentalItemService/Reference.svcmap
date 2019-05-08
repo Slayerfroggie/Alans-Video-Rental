@@ -21,14 +21,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:46939/RentalItemService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/RentalItemService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="RentalItemService.xsd" MetadataType="Schema" ID="a4085c05-1fcd-4b21-a8a5-ff6423b64a4e" SourceId="1" SourceUrl="http://localhost:46939/RentalItemService.svc?xsd=xsd1" />
-    <MetadataFile FileName="RentalItemService.wsdl" MetadataType="Wsdl" ID="0adc821f-5cec-4d56-a7b1-41ff55d4c949" SourceId="1" SourceUrl="http://localhost:46939/RentalItemService.svc?wsdl" />
-    <MetadataFile FileName="RentalItemService.disco" MetadataType="Disco" ID="a41d748d-f7b5-45d8-93c6-6c99ecd1abd6" SourceId="1" SourceUrl="http://localhost:46939/RentalItemService.svc?disco" />
-    <MetadataFile FileName="RentalItemService1.xsd" MetadataType="Schema" ID="d989db9d-a533-4c46-a007-f4d05d9cc581" SourceId="1" SourceUrl="http://localhost:46939/RentalItemService.svc?xsd=xsd0" />
-    <MetadataFile FileName="RentalItemService2.xsd" MetadataType="Schema" ID="7f1117da-fc13-4459-b387-ea803d10a6c8" SourceId="1" SourceUrl="http://localhost:46939/RentalItemService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RentalItemService1.wsdl" MetadataType="Wsdl" ID="fc606acc-06b6-4e55-9626-b2834a7c3b3c" SourceId="1" SourceUrl="http://localhost:8080/RentalItemService.svc?wsdl" />
+    <MetadataFile FileName="RentalItemService3.xsd" MetadataType="Schema" ID="3cf3ad9f-8981-4347-b2c2-3a1de07e4fe6" SourceId="1" SourceUrl="http://localhost:8080/RentalItemService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RentalItemService1.disco" MetadataType="Disco" ID="517a089d-f241-4026-8742-cf46434c9a84" SourceId="1" SourceUrl="http://localhost:8080/RentalItemService.svc?disco" />
+    <MetadataFile FileName="RentalItemService31.xsd" MetadataType="Schema" ID="6f39d306-17bc-4c36-ab96-24efa5d663a7" SourceId="1" SourceUrl="http://localhost:8080/RentalItemService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RentalItemService32.xsd" MetadataType="Schema" ID="6bd9c3a0-0005-424c-a943-76a75bd3a57d" SourceId="1" SourceUrl="http://localhost:8080/RentalItemService.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

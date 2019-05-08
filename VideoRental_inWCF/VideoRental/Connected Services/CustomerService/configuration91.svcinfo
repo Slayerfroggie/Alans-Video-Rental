@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="htqktNS7fN+W2uk07Q5GLSU8xtI=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="j/kabmEUuS05QMVO9kMfJPy/9Co=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_ICustomerService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_ICustomerService" contract="CustomerService.ICustomerService" bindingType="basicHttpBinding" address="http://localhost:46939/CustomerService.svc" bindingConfiguration="BasicHttpBinding_ICustomerService">
+    <endpoint name="BasicHttpBinding_ICustomerService" contract="CustomerService.ICustomerService" bindingType="basicHttpBinding" address="http://localhost:8080/CustomerService.svc" bindingConfiguration="BasicHttpBinding_ICustomerService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:46939/CustomerService.svc</serializedValue>
+          <serializedValue>http://localhost:8080/CustomerService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

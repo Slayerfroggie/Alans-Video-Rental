@@ -21,14 +21,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:46939/RentalService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/RentalService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="RentalService.xsd" MetadataType="Schema" ID="766b269c-f697-423c-972e-bac42f32a23d" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd0" />
-    <MetadataFile FileName="RentalService.disco" MetadataType="Disco" ID="f592273a-dd5b-4b2a-ac7c-0ca82403e0b3" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?disco" />
-    <MetadataFile FileName="RentalService.wsdl" MetadataType="Wsdl" ID="ce0a94ea-2d61-4402-8dbb-0d5e62e9c7b1" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?wsdl" />
-    <MetadataFile FileName="RentalService1.xsd" MetadataType="Schema" ID="e3d5241c-03db-4d86-b7ed-24ffc864cf47" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd1" />
-    <MetadataFile FileName="RentalService2.xsd" MetadataType="Schema" ID="de04db61-881c-4375-9d9d-b365a70192eb" SourceId="1" SourceUrl="http://localhost:46939/RentalService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RentalService3.xsd" MetadataType="Schema" ID="61844d98-7cee-4635-9442-f2d010c06163" SourceId="1" SourceUrl="http://localhost:8080/RentalService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RentalService1.wsdl" MetadataType="Wsdl" ID="11d31cb8-5d28-4645-86bd-c6f686ead68c" SourceId="1" SourceUrl="http://localhost:8080/RentalService.svc?wsdl" />
+    <MetadataFile FileName="RentalService31.xsd" MetadataType="Schema" ID="a7acfedc-d4b0-4698-a50f-fc28ab941bb7" SourceId="1" SourceUrl="http://localhost:8080/RentalService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RentalService32.xsd" MetadataType="Schema" ID="b39960a8-2e90-4180-a2dd-11f4ec7dedac" SourceId="1" SourceUrl="http://localhost:8080/RentalService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RentalService1.disco" MetadataType="Disco" ID="9ec8bfc1-5d66-4a9a-87dd-a31300c1ecaf" SourceId="1" SourceUrl="http://localhost:8080/RentalService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

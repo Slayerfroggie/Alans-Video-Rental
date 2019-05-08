@@ -212,59 +212,78 @@
     <Content Include="App_Data\VideoRental_log.ldf">
       <DependentUpon>VideoRental.mdf</DependentUpon>
     </Content>
-    <None Include="Connected Services\CustomerService\CustomerService.wsdl" />
-    <None Include="Connected Services\CustomerService\CustomerService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CustomerService\CustomerService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CustomerService\CustomerService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Connected Services\CustomerService\CustomerService1.disco" />
     <Content Include="Connected Services\CustomerService\VideoRental.CustomerService.Customer.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Connected Services\MovieService\MovieService.disco" />
+    <None Include="Connected Services\CustomerService\CustomerService1.wsdl" />
+    <None Include="Connected Services\CustomerService\CustomerService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CustomerService\CustomerService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CustomerService\CustomerService32.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\MovieService\configuration91.svcinfo" />
     <None Include="Connected Services\MovieService\configuration.svcinfo" />
+    <None Include="Connected Services\MovieService\MovieService1.wsdl" />
+    <None Include="Connected Services\MovieService\MovieService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MovieService\MovieService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\MovieService\MovieService32.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\MovieService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Connected Services\CustomerService\CustomerService.disco" />
     <None Include="Connected Services\CustomerService\configuration91.svcinfo" />
     <None Include="Connected Services\CustomerService\configuration.svcinfo" />
     <None Include="Connected Services\CustomerService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Connected Services\RentalItemService\RentalItemService.wsdl" />
-    <None Include="Connected Services\RentalItemService\RentalItemService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\RentalItemService\RentalItemService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\RentalItemService\RentalItemService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Connected Services\MovieService\MovieService1.disco" />
+    <None Include="Connected Services\RentalItemService\RentalItemService1.disco" />
     <Content Include="Connected Services\RentalItemService\VideoRental.RentalItemService.RentalItem.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Connected Services\RentalService\RentalService.disco" />
+    <None Include="Connected Services\RentalItemService\RentalItemService1.wsdl" />
+    <None Include="Connected Services\RentalItemService\RentalItemService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\RentalItemService\RentalItemService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\RentalItemService\RentalItemService32.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\RentalService\configuration91.svcinfo" />
     <None Include="Connected Services\RentalService\configuration.svcinfo" />
     <None Include="Connected Services\RentalService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Connected Services\RentalItemService\RentalItemService.disco" />
     <None Include="Connected Services\RentalItemService\configuration91.svcinfo" />
     <None Include="Connected Services\RentalItemService\configuration.svcinfo" />
     <None Include="Connected Services\RentalItemService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\RentalService\RentalService1.wsdl" />
+    <None Include="Connected Services\RentalService\RentalService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\RentalService\RentalService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\RentalService\RentalService32.xsd">
+      <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\ServiceReference1\Service1.disco" />
     <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
@@ -273,6 +292,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\RentalService\RentalService1.disco" />
     <Content Include="Content\alertifyjs\alertify.css" />
     <Content Include="Content\alertifyjs\alertify.min.css" />
     <Content Include="Content\alertifyjs\alertify.rtl.css" />
@@ -308,29 +328,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Connected Services\MovieService\MovieService.wsdl" />
-    <None Include="Connected Services\MovieService\MovieService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\MovieService\MovieService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\MovieService\MovieService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="Connected Services\MovieService\VideoRental.MovieService.Movie.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Connected Services\RentalService\RentalService.wsdl" />
-    <None Include="Connected Services\RentalService\RentalService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\RentalService\RentalService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\RentalService\RentalService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="Connected Services\RentalService\VideoRental.RentalService.Rental.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -341,6 +341,7 @@
     <None Include="Connected Services\ServiceReference1\Service11.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
